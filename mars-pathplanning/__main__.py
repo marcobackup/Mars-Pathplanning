@@ -3,7 +3,7 @@ import math
 import sys
 
 
-#plt.title('Mars pathplanning')
+plt.title('Mars pathplanning')
 plt.axis([-1000, 1000, -1000, 1000])
 plt.imshow(
     plt.imread('mars-pathplanning/bg.jpeg'), extent=[-1000, 1000, -1000, 1000], aspect='auto'
