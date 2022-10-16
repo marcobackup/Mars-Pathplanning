@@ -3,3 +3,4 @@
 
 
 ![image](https://github.com/marcobackup/Mars-Pathplanning/blob/main/docs/swImage.png?raw=true)
+![image](https://github.com/marcobackup/Mars-Pathplanning/blob/main/docs/cliImage.png?raw=true)
