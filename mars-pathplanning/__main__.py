@@ -22,9 +22,11 @@ startPoint = coordinates[0]
 for coordinate in coordinates:
     if coordinates.index(coordinate) == 0:
         marker = 'X'
+        color = 'green'
     else:
-        marker = '.'
-    plt.scatter(coordinate[0], coordinate[1], color='red', marker=marker)
+        marker = 'o'
+        color = 'red'
+    plt.scatter(coordinate[0], coordinate[1], color=color, marker=marker)
     plt.pause(0.3)
 
 # calculate shortest path
